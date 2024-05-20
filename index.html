@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Motos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: rgb(10, 10, 10);
+        }
+        header {
+            background-color: #800000;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .card {
+            width: 300px;
+            border: 2px solid rgb(201, 195, 195);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .card:hover button {
+            cursor: pointer;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #882020;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #profile-image {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        #profile-image2 {
+            max-width: 230px;
+            display: block;
+            margin: 0 auto;
+        }
+        #profile-image3 {
+            max-width: 170px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Compre sua Moto</h1>
+            <input type="text" placeholder="Pesquisar...">
+            <input type="submit" value="Pesquisar">
+            <p>Venha Nos Conhecer</p>
+          <a href="index2.html" Contato> 
+            <button> Contato </button>
+          </a>
+    </header>
+    <div class="container">
+        <div class="card">
+            <a> <img id="profile-image" src="moto1.png"></a>
+            <h2>Royal Enfield - classic-350</h2>
+            <p>Valor: R$ 23.000,00</p>
+            <a href="https://ofertasroyalenfield.com.br/classic-350" target="_blank"><button>Comprar</button></a>
+        </div>
+        <div class="card">
+            <a> <img id="profile-image2" src="moto 2.png"></a>
+            <h2> Yamaha Fazer 250</h2>
+            <p>Valor: R$ 22.800,00</p>
+            <a href="https://www.yamaha-motor.com.br/fazer-fz25-abs/product/30095" target="_blank"><button>Comprar</button></a>
+        </div>
+        <div class="card">
+            <a> <img id="profile-image3" src="moto3.avif"></a>
+            <h2>Mt yamaha 07</h2>
+            <p>Valor: R$ 48.000,00</p>
+            <a href="https://www.yamaha-motor.com.br/mt-07-abs/product/30085" target="_blank"><button>Comprar</button></a>
+        </div>
+        <div class="card">
+            <a> <img id="profile-image" src="moto4.webp"></a>
+            <h2> Super Meteor-650 </h2>
+            <p>Valor: R$ 34.000,00</p>
+            <a href="https://www.royalenfieldes.com.br/novos/super-meteor-650/astral-black" target="_blank"><button>Comprar</button></a>
+        </div>
+    </div>
+</body>
+</html>
